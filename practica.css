@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* estilo general */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+    /* navegacion */
+.navbar {
+    background-color: rgb(129, 202, 135);
+    padding: 15px 40px;
+    /* el coso flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* logo */
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    /* flexbox */
+    display: flex;
+    align-items: center;
+}
+
+    /* Icono logo */
+.logo i {
+    margin-right: 8px;
+    font-size: 28px;
+    color: #fff;
+}
+
+    /* navegacion */
+.nav-links {
+    /* Flex */
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* efecto hover */
+.nav-links a:hover {
+    background-color: #fff;
+    color: brown;
+}
+
+img {
+    width: 1920px;
+    height: 870px;
+    display: block;
+    margin: 0px;
+}
